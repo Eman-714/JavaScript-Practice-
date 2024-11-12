@@ -1,7 +1,7 @@
 //Method of function 
 // apply Syntax 
 //functionName.apply(thisArg, [arg1, arg2, ...])
-const person = {
+/*const person = {
     fullName: function(city, country) {
         return this.firstName + " " + this.lastName + " from " + city + ", " + country;
     }
@@ -36,7 +36,12 @@ const person = {
 const anotherPerson = { name: "Bob" };
 
 // Using `apply` to call `greet` with `anotherPerson` as `this`
-person.greet.apply(anotherPerson, ["Paris"]); // Output: "Hello, Bob from Paris!"
+person.greet.apply(anotherPerson, ["Paris"]); // Output: "Hello, Bob from Paris!"*/
 
+const addtwo =function(num)
+{
+    return num+2;
+}
 
-
+//addtwo(5)
+console.log(addtwo(5))
